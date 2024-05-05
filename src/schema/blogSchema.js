@@ -3,19 +3,6 @@ const mongoose = require('mongoose');
 const blogSchema = new mongoose.Schema(
   {
    
-    comment: {
-      type: String,
-      required: true,
-    },
-    commentByName: {
-      type: String,
-      Required: true,
-    },
-    commentById: {
-      type: String,
-      Required: true,
-    },
-    
       blogId: {
         type: String,
         required: true,
